@@ -81,7 +81,7 @@ class PythonREPLTool(BaseTool):
 class PythonAstREPLTool(BaseTool):
     """A tool for running python code in a REPL."""
 
-    name = "python"
+    name = "python_repl_ast"
     description = (
         "A Python shell. Use this to execute python commands. "
         "Input should be a valid python command. "
